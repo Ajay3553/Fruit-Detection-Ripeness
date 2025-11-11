@@ -1,31 +1,3 @@
-# Installation
-Use a virtual environment for an isolated setup before installing packages with pip to avoid system conflicts. Upgrade pip first, then install TensorFlow and the rest of the Python stack needed by this project. OpenCV is provided via the opencv-python wheels on PyPI and installs with a single pip command.​
-
-## Create and activate a virtual environment
-Windows PowerShell:
-Create: python -m venv .venv​
-Activate: ..venv\Scripts\Activate.ps1​
-
-## Linux/Mac:
-Create: python3 -m venv .venv​
-Activate: source .venv/bin/activate​
-
-# Install required packages
-Run these two commands inside the activated venv to upgrade pip and install runtime/training dependencies for this repo.​
-
-## Upgrade pip:
-python -m pip install --upgrade pip​
-
-## Install project packages:
-pip install numpy pandas scikit-learn joblib matplotlib pillow opencv-python tensorflow
-
-# AND ALSO REQUIRED TO INSTALL THE PACKAGES THAT ARE MENTIONED IN requirements.txt
-You can install these manually
-OR
-Use this one-liner from the project directory (inside your activated venv):
-python -m pip install -r requirements.txt
-This will install all the packges that are required to run it
-
 # Two-Layer Fruit Ripeness Detection System
 
 A complete machine learning system for detecting fruit type and ripeness level using RGB color values.
@@ -104,7 +76,7 @@ proj_sklearn-env\Scripts\activate.bat  # Windows
 source proj_sklearn-env/bin/activate  # Linux/Mac
 
 # Install dependencies
-pip install numpy pandas scikit-learn joblib
+pip install numpy pandas scikit-learn joblib matplotlib pillow opencv-python tensorflow
 ```
 
 ### 2. Training
