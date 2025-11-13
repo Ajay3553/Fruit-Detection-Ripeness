@@ -36,13 +36,7 @@ RGB Color Input (R, G, B)
     │ 2 = Ripe                   │
     │ 3 = Decay                  │
     └────────────────────────────┘
-         ↓
-    ┌────────────────────────────┐
-    │   Pin 2: Green  (0)        │
-    │   Pin 3: Yellow (1)        │
-    │   Pin 4: White  (2)        │
-    │   Pin 5: Red    (3)        │
-    └────────────────────────────┘
+
 ```
 
 ## Project Files
@@ -116,7 +110,7 @@ R,G,B,fruit_type,ripeness_label
 
 **Columns:**
 - `R, G, B`: RGB color values (0-255)
-- `fruit_type`: 0=Apple, 1=Banana, 2=Mango, 3=Orange, 4=Strawberry
+- `fruit_type`: 0=Apple, 1=Banana, 2=Mango, 3=Orange
 - `ripeness_label`: 0=Early Ripe, 1=Partially Ripe, 2=Ripe, 3=Decay
 
 ## Label Mappings
@@ -127,7 +121,6 @@ R,G,B,fruit_type,ripeness_label
 1 = Banana
 2 = Mango
 3 = Orange
-4 = Strawberry
 ```
 
 ### Ripeness Stages

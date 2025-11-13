@@ -13,7 +13,6 @@ Fruit type mapping:
   1 = Banana
   2 = Mango
   3 = Orange
-  4 = Strawberry
 
 Ripeness label mapping:
   0 = Early Ripe

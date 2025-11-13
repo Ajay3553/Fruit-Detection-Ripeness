@@ -1,0 +1,19 @@
+# Ignore Python virtual environments
+proj_sklearn-env/
+venv/
+
+# Ignore dataset folders
+fruits-360/
+data/
+results/
+
+# Ignore model and large binary files
+*.h5
+*.npy
+*.dll
+*.pyd
+
+# Ignore temporary or system files
+__pycache__/
+*.log
+*.tmp
